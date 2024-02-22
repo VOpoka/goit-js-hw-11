@@ -5,7 +5,7 @@ import { renderImages } from './js/render-functions.js';
 import { getPhotoBySearch } from './js/pixabay-api.js';
 
 const formElem = document.querySelector('.search-form');
-const galleryEl = document.querySelector('.gallery-o');
+const galleryEl = document.querySelector('.gallery-o a');
 const loaderElem = document.querySelector('.loader');
 
 document.addEventListener('DOMContentLoaded', () => {
