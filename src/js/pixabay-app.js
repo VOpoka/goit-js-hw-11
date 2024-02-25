@@ -9,7 +9,7 @@ export function getPhotoBySearch(searchValue) {
     .then(res => res.json())
     .then(data => {
       if (data.total === 0) {
-        throw new Error('No images found');
+        throw new Error('No images found!!!');
       }
       return data;
     });
