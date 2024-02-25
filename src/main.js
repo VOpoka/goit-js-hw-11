@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 import { renderImages } from './js/render-functions.js';
-import { getPhotoBySearch } from './js/pixabay-api.js';
+import { getPhotoBySearch } from './js/pixabay-app.js.js';
 
 const formElem = document.querySelector('.search-form');
 const galleryEl = document.querySelector('.gallery-o');
